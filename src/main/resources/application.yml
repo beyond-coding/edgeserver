@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+zuul:
+  ignoredServices: "*"
+  routes:
+    discoveryclient:
+      path: /**

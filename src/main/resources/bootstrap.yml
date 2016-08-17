@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: edgeserver
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOSTNAME:localhost}:8761/eureka/
